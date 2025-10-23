@@ -34,4 +34,5 @@ jobs:
       - name: Run textCompare checks
         run: |
           echo "Running payload comparisons..."
-          python order-sim-compare/compare_payloads.py
+          cd order-sim-compare
+          python compare_payloads.py
