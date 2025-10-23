@@ -1,0 +1,102 @@
+{
+  "root": {
+    "OrderHeader": {
+      "CardHeaderID": "0a69O000000h7hNQAQ",
+      "NetCommercialSum": "7039.56",
+      "TotalTaxAmount": "351.98",
+      "TotalFreight": "0.0000",
+      "TotalNetAmount": "7039.56",
+      "TotalGrossAmount": "7391.54"
+    },
+    "OrderItem": {
+      "Item": [
+        {
+          "CardItemID": "0a99O000001YLsgQAG",
+          "Product": "CRCO SY_LIBERTY TRD 939 PB 50 KS SY PL",
+          "Qty": "10.000",
+          "NetCommercialValue": "5550.0000",
+          "SubTotalNet": "5550.0000",
+          "TotalTaxAmount": "277.5000",
+          "Currency": "PLN",
+          "Prices": {
+            "PriceItem": [
+              {
+                "CondType": "ZDGP",
+                "CondValueRate": "555.000000000",
+                "CondValue": "5550.000000000",
+                "CondBaseVal": "10.000000000"
+              },
+              {
+                "CondType": "ZF00",
+                "CondValueRate": "0.000000000",
+                "CondValue": "0.000000000",
+                "CondBaseVal": "555.000000000"
+              },
+              {
+                "CondType": "ZITD",
+                "CondValueRate": "100.000000000",
+                "CondValue": "5550.000000000",
+                "CondBaseVal": "5550.000000000"
+              },
+              {
+                "CondType": "ZITE",
+                "CondValueRate": "0.000000000",
+                "CondValue": "0.000000000",
+                "CondBaseVal": "5550.000000000"
+              },
+              {
+                "CondType": "ZITR",
+                "CondValueRate": "5.000000000",
+                "CondValue": "277.500000000",
+                "CondBaseVal": "5550.000000000"
+              }
+            ]
+          }
+        },
+        {
+          "CardItemID": "0a99O000001YLsfQAG",
+          "Product": "CRCO SY_LIBERTY TRD 939 PB 50 KS PO LT",
+          "Qty": "5.000",
+          "NetCommercialValue": "1489.5600",
+          "SubTotalNet": "1489.5600",
+          "TotalTaxAmount": "74.4800",
+          "Currency": "PLN",
+          "Prices": {
+            "PriceItem": [
+              {
+                "CondType": "ZDGP",
+                "CondValueRate": "70.000000000",
+                "CondValue": "1489.560000000",
+                "CondBaseVal": "5.000000000"
+              },
+              {
+                "CondType": "ZF00",
+                "CondValueRate": "0.000000000",
+                "CondValue": "0.000000000",
+                "CondBaseVal": "148.956000000"
+              },
+              {
+                "CondType": "ZITD",
+                "CondValueRate": "100.000000000",
+                "CondValue": "1489.560000000",
+                "CondBaseVal": "1489.560000000"
+              },
+              {
+                "CondType": "ZITE",
+                "CondValueRate": "0.000000000",
+                "CondValue": "0.000000000",
+                "CondBaseVal": "1489.560000000"
+              },
+              {
+                "CondType": "ZITR",
+                "CondValueRate": "5.000000000",
+                "CondValue": "74.480000000",
+                "CondBaseVal": "1489.560000000"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "root": {
+    "OrderHeader": {
+      "CardHeaderID": "0a69O000000F3yTQAS",
+      "NetCommercialSum": "100",
+      "TotalTaxAmount": "0",
+      "TotalFreight": "0",
+      "TotalNetAmount": "100",
+      "TotalGrossAmount": "100"
+    },
+    "OrderItem": {
+      "Item": [
+        {
+          "CardItemID": "0a99O000000iezRQAQ",
+          "Product": "VEG NOZZLE 06 (STEEL)",
+          "Qty": "2.000",
+          "NetCommercialValue": "40.0000",
+          "SubTotalNet": "40.0000",
+          "TotalTaxAmount": "0.0000",
+          "Currency": "GBP",
+          "Prices": {
+            "PriceItem": [
+              {
+                "CondType": "ZDGP",
+                "CondValueRate": "20.000000000",
+                "CondValue": "40.000000000",
+                "CondBaseVal": "2.000000000"
+              },
+              {
+                "CondType": "ZDR3",
+                "CondValueRate": "0.000000000",
+                "CondValue": "0.000000000",
+                "CondBaseVal": "40.000000000"
+              },
+              {
+                "CondType": "ZG31",
+                "CondValueRate": "0.000000000",
+                "CondValue": "40.000000000",
+                "CondBaseVal": "4.000000000"
+              },
+              {
+                "CondType": "SKTV",
+                "CondValueRate": "-2.000000000",
+                "CondValue": "-0.800000000",
+                "CondBaseVal": "40.000000000"
+              },
+              {
+                "CondType": "KUMU",
+                "CondValueRate": "40.000000000",
+                "CondValue": "40.000000000",
+                "CondBaseVal": "4.000000000"
+              },
+              {
+                "CondType": "GRWR",
+                "CondValueRate": "100.000000000",
+                "CondValue": "40.000000000",
+                "CondBaseVal": "40.000000000"
+              },
+              {
+                "CondType": "VPRS",
+                "CondValueRate": "7510.000000000",
+                "CondValue": "15.020000000",
+                "CondBaseVal": "2.000000000"
+              },
+              {
+                "CondType": "ZPVH",
+                "CondValueRate": "0.000000000",
+                "CondValue": "15.020000000",
+                "CondBaseVal": "2.000000000"
+              },
+              {
+                "CondType": "ZPVS",
+                "CondValueRate": "0.000000000",
+                "CondValue": "-15.020000000",
+                "CondBaseVal": "2.000000000"
+              }
+            ]
+          }
+        },
+        {
+          "CardItemID": "0a99O000000if13QAA",
+          "Product": "VEG NOZZLE 08 (BRASS)",
+          "Qty": "3.000",
+          "NetCommercialValue": "60.0000",
+          "SubTotalNet": "60.0000",
+          "TotalTaxAmount": "0.0000",
+          "Currency": "GBP",
+          "Prices": {
+            "PriceItem": [
+              {
+                "CondType": "ZDGP",
+                "CondValueRate": "20.000000000",
+                "CondValue": "60.000000000",
+                "CondBaseVal": "3.000000000"
+              },
+              {
+                "CondType": "ZDR3",
+                "CondValueRate": "0.000000000",
+                "CondValue": "0.000000000",
+                "CondBaseVal": "60.000000000"
+              },
+              {
+                "CondType": "ZG31",
+                "CondValueRate": "0.000000000",
+                "CondValue": "60.000000000",
+                "CondBaseVal": "6.000000000"
+              },
+              {
+                "CondType": "SKTV",
+                "CondValueRate": "-2.000000000",
+                "CondValue": "-1.200000000",
+                "CondBaseVal": "60.000000000"
+              },
+              {
+                "CondType": "KUMU",
+                "CondValueRate": "60.000000000",
+                "CondValue": "60.000000000",
+                "CondBaseVal": "6.000000000"
+              },
+              {
+                "CondType": "GRWR",
+                "CondValueRate": "100.000000000",
+                "CondValue": "60.000000000",
+                "CondBaseVal": "60.000000000"
+              },
+              {
+                "CondType": "VPRS",
+                "CondValueRate": "5110.000000000",
+                "CondValue": "15.330000000",
+                "CondBaseVal": "3.000000000"
+              },
+              {
+                "CondType": "ZPVH",
+                "CondValueRate": "0.000000000",
+                "CondValue": "15.330000000",
+                "CondBaseVal": "3.000000000"
+              },
+              {
+                "CondType": "ZPVS",
+                "CondValueRate": "0.000000000",
+                "CondValue": "-15.330000000",
+                "CondBaseVal": "3.000000000"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
