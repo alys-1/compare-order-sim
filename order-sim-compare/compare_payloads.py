@@ -11,7 +11,8 @@ def textCompare(file1, file2):
     diff = DeepDiff(j1, j2, ignore_order=True, significant_digits=6)
     if diff:
         print(f"❌ Payloads differ between {file1} and {file2}:")
-        print(json.dumps(diff, indent=2))
+        print(str(diff))
+
         return False
     else:
         print(f"✅ {file1} and {file2} match.")
