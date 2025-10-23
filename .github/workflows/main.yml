@@ -34,4 +34,4 @@ jobs:
       - name: Run textCompare checks
         run: |
           echo "Running payload comparisons..."
-          python compare_payloads.py   # <- update path if your file is in a subfolder
+          python order-sim-compare/compare_payloads.py
