@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
-  workflow_dispatch:
+  workflow_dispatch:  # allows manual run
 
 jobs:
   compare-payloads:
@@ -24,7 +24,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install deepdiff
 
+      - name: Debug - list files
+        run: |
+          echo "Current working directory:"
+          pwd
+          echo "Files in repo:"
+          ls -R
+
       - name: Run textCompare checks
         run: |
           echo "Running payload comparisons..."
-          python compare_payloads.py
+          python compare_payloads.py   # <- update path if your file is in a subfolder
